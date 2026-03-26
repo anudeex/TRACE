@@ -31,15 +31,11 @@ The GhostWriteBench dataset (with three splits as per paper) can be found in [/g
 
 
 
-TRACE basically involves: 
-<ol>
-<li>Generating token-level scores using an evaluator language model ([generate-token-scores-TRACE.py](./src/generate-token-scores-TRACE.py)).</li>
-<li>Then, using this scores to compute fingerprints during inference.</li>
-  <ul>
-  <li>Rank-based - [test-rank-based-TRACE.py](./src/test-rank-based-TRACE.py)</li>
-  <li>Entropy-based - [test-entropy-based-TRACE.py](./src/test-entropy-based-TRACE.py)</li>
-   </ul>
-</ol>
+TRACE basically involves:
+1. Generating token-level scores using an evaluator language model ([generate-token-scores-TRACE.py](./src/generate-token-scores-TRACE.py)).</li>
+2. Then, using this scores to compute fingerprints during inference.</li>
+   * Rank-based - [test-rank-based-TRACE.py](./src/test-rank-based-TRACE.py)</li>
+   * Entropy-based - [test-entropy-based-TRACE.py](./src/test-entropy-based-TRACE.py)</li>
  
 ### Citing
 TODO
