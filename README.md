@@ -20,14 +20,26 @@ Experiments on GhostWriteBench demonstrate that TRACE achieves state-of-the-art 
 
 
 ### GhostWriteBench Dataset
-The data (with three splits as per paper) can be found in [/ghostwritebench](./ghostwritebench) folder.
+
+<img width="1251" height="622" alt="image" src="https://github.com/user-attachments/assets/6a1a8944-7e1c-497b-8afb-535ec22fa8da" />
+
+
+The GhostWriteBench dataset (with three splits as per paper) can be found in [/ghostwritebench](./ghostwritebench) folder.
 
 ### TRACE Fingerprint
-This basically involves: 
-* Generating token-level scores using an evaluator language model ([generate-token-scores-TRACE.py](./src/generate-token-scores-TRACE.py)).
-* Then, using this scores to compute fingerprints during inference.
-  * Rank-based - [test-rank-based-TRACE.py](./src/test-rank-based-TRACE.py)
-  * Entropy-based - [test-entropy-based-TRACE.py](./src/test-entropy-based-TRACE.py)
+<img width="1251" height="736" alt="image" src="https://github.com/user-attachments/assets/9b961f40-8848-40a0-abfd-7b880de176d3" />
 
+
+
+TRACE basically involves: 
+<ol>
+<li>Generating token-level scores using an evaluator language model ([generate-token-scores-TRACE.py](./src/generate-token-scores-TRACE.py)).</li>
+<li>Then, using this scores to compute fingerprints during inference.</li>
+  <ul>
+  <li>Rank-based - [test-rank-based-TRACE.py](./src/test-rank-based-TRACE.py)</li>
+  <li>Entropy-based - [test-entropy-based-TRACE.py](./src/test-entropy-based-TRACE.py)</li>
+   </ul>
+</ol>
+ 
 ### Citing
 TODO
