@@ -1,6 +1,6 @@
 Code for our paper - _"Who Wrote the Book? Detecting and Attributing LLM Ghostwriters"_
 
-TODO: add arxiv link here
+**arXiv (Pre-print) version: [link](https://arxiv.org/abs/2603.28054)**
 
 ### Abstract
 In this paper, we introduce GhostWriteBench, a dataset for LLM authorship attribution.
