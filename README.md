@@ -38,4 +38,14 @@ TRACE basically involves:
    * Entropy-based - [test-entropy-based-TRACE.py](./src/test-entropy-based-TRACE.py)</li>
  
 ### Citing
-TODO
+```
+@misc{shetty2026wrotebookdetectingattributing,
+      title={Who Wrote the Book? Detecting and Attributing LLM Ghostwriters}, 
+      author={Anudeex Shetty and Qiongkai Xu and Olga Ohrimenko and Jey Han Lau},
+      year={2026},
+      eprint={2603.28054},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2603.28054}, 
+}
+```
